@@ -1,0 +1,91 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url(pics/esports.jpg);
+  background-size: cover;
+}
+header {
+  padding: auto;
+
+}
+h1 {
+  margin: 0;
+  font-size: 48px;
+  color: lightblue;
+}
+nav {
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  float: right;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+nav a:hover {
+  color: lightblue;
+}
+.container {
+  padding: 30px;
+  margin: 100px auto;
+  border: solid;
+  box-shadow: 0 0 10px whitesmoke;
+  border-radius: 20px;
+  width: 600px;
+}
+label {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin: 0 50px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 80%;
+  display: block;
+  margin: 10px auto;
+}
+input[type="submit"] {
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 80%;
+  display: block;
+  margin: 10px auto;
+  background-color: gray;
+}
+input[type="submit"]:hover {
+  background-color: rgb(161, 135, 135);
+}
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.footer a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer img:hover {
+  opacity: 0.8;
+}

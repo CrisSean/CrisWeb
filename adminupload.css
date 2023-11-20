@@ -1,0 +1,99 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(pics/esports.jpg);
+    text-align: center;
+    background-size: cover;
+}
+h2 {
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 50px;
+}
+form {
+    margin-bottom: 20px;
+}
+input[type="file"] {
+    margin-bottom: 10px;
+}
+textarea {
+    width: 300px;
+    height: 100px;
+    resize: none;
+}
+
+  header {
+    padding: auto;
+  }
+  h1 {
+    margin: 0;
+    font-size: 48px;
+    color: lightblue;
+    float: left;
+  }
+  nav {
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    float: right;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  nav a:hover {
+    color: lightblue;
+  }
+  table {
+    width: 100%;
+    margin-top: 20px;
+  }
+  th, td {
+    padding: 15px; 
+    text-align: left; 
+    border-bottom: 1px solid #ddd;
+    }
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .footer a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .footer img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .footer img:hover {
+    opacity: 0.8;
+  }
+  .event {
+    width: 1500px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.event p {
+    margin: 10px 0;
+    font-size: 30px;
+}
+
+.event img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 4px;
+}
